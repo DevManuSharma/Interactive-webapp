@@ -5,7 +5,7 @@ import SigninPage from "./pages/signin";
 
 function App() {
     return (
-        <Router basename="/digital-school1" className="App">
+        <Router basename="/Interactive-webapp" className="App">
             <Switch>
                 <Route exact path="/">
                     <Home />
