@@ -10,7 +10,9 @@ import {
     FormLabel,
     FormText,
     FormWrap,
+    FormBackToHomeButton,
 } from "./SigninElements";
+import { FaArrowLeft } from "react-icons/fa";
 
 const SignIn = () => {
     return (
@@ -26,6 +28,9 @@ const SignIn = () => {
                         <FormInput type="password" required />
                         <FormButton type="submit">Continue</FormButton>
                         <FormText>Forgot Password</FormText>
+                        <FormBackToHomeButton to="/">
+                            <FaArrowLeft /> Back to Home
+                        </FormBackToHomeButton>
                     </Form>
                 </FormContent>
             </FormWrap>
